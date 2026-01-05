@@ -10,41 +10,39 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              SOBRE<span className="purple"> MI </span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Soy un desarrollador de software al que le apasiona transformar
+              ideas en productos confiables y escalables. Con el tiempo, he
+              explorado diversas tecnologías y he encontrado mi pasión en la
+              construcción de sistemas de alto rendimiento y experiencias de
+              usuario intuitivas.
               <br />
               <br />
-              I’m proficient in
+              Cuento con conocimientos en
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, ReactJs, React Native, PHP, Node.js, MySQL,
+                  MongoDB.{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              Disfruto del desarrollo integral, abarcando tanto el backend como
+              el frontend.
               <br />
               <br />
-              My key areas of interest include developing
+              Mis principales áreas de interés incluyen el desarrollo de
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  aplicaciones web escalables, la arquitectura de microservicios
+                  y la creación de experiencias móviles nativas de alto
+                  rendimiento.{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
