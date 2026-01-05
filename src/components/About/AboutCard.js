@@ -31,7 +31,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p className="purple">
             "Aspira a construir soluciones que generen un impacto real."{" "}
           </p>
           <footer className="blockquote-footer">Alfredo</footer>
