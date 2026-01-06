@@ -11,7 +11,9 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { CgFileDocument } from "react-icons/cg";
+import { SiGmail } from "react-icons/si";
 
 function Home() {
   return (
@@ -58,6 +60,26 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="mailto:jaguilardev98@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/+50237915406"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://github.com/Alfredkin1244"
                   target="_blank"
                   rel="noreferrer"
@@ -66,7 +88,7 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="#"
                   target="_blank"
@@ -75,8 +97,8 @@ function Home() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
-              <li className="social-icons">
+              </li> */}
+              {/* <li className="social-icons">
                 <a
                   href="#"
                   target="_blank"
@@ -85,10 +107,10 @@ function Home() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/a.julian96/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
